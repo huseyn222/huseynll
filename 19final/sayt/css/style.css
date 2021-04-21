@@ -1,0 +1,418 @@
+body {
+    background: #2c2c2c;
+    width: 100%;
+}
+
+
+#vv1 {
+    position: absolute;
+    position: fixed;
+}
+
+#vv1 .collapse {
+  height: 1000px;
+  background: #b0a87a;
+
+}
+
+#vv1 img {
+  position: absolute;
+  top: -50px;
+}
+
+#vv1 .navbar-nav {
+  position: absolute;
+  top: 50px;
+}
+
+#vv1 img {
+  border-radius: 100px;
+  margin-left: 60px;
+  margin-top: 150px;
+}
+
+#vv1 h1 {
+  color: #e47171;
+  margin-top: 250px;
+  margin-left: 70px;
+}
+
+#vv1 p {
+  text-align: center;
+  width: 200px;
+  position: absolute;
+  top: 350px;
+  left: 20px;
+}
+
+#vv1 .zz1 {
+  text-align: center;
+  width: 200px;
+  position: absolute;
+  top: 550px;
+  left: 40px;
+}
+
+#vv1 .zz1 li {
+  padding: 10px;
+}
+
+#vv1 jj1{
+    position: absolute;
+}
+
+#z0 .z3 img {
+  max-width: 10%;
+}
+
+#ee1 .column {
+  position: absolute;
+  top: 8px;
+  left: 290px;
+}
+
+#ee1 .aa1 img{
+   max-width: 350px;
+}
+
+#ee1 .column .aa1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#ee1 .column .aa1:hover {
+  opacity: 0.3;
+}
+
+#ee1 .column .aa1 h1 {
+  position: absolute;
+  top: 1px;
+  color: white;
+}
+
+#ee1 .column .aa1 h1:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+#oo {
+    background: #2c2c2c;
+}
+
+#oo h1{
+text-align: center;
+margin-top: 200px;
+}
+
+#oo cc0{
+}
+
+    #oo .cc0 p {
+       position: relative;
+       top: 10px;
+    }
+
+    #oo .cc0 h1 {
+        position: relative;
+        top: 10px;
+    }
+        #oo .cc0 {
+        position: absolute;
+        top: 100px;
+        color: #939393;
+    }
+
+#mm1 {
+  background: #2c2c2c;
+  height: 1000px;
+  text-align: center;
+}
+
+    #mm1 .mm2 {
+        position: relative;
+        text-align: center;
+        top:250px;
+    }
+
+#mm1 h1 {
+  color: #869293;
+}
+
+#mm1 p {
+  color: #869293;
+}
+
+
+    #mm1 .mm2 img {
+        position: relative;
+        left: 1%;
+    }
+
+
+#ll5  {
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    width: 50%
+}
+
+
+
+@media screen and (min-width: 400px) {
+
+   
+}
+
+
+
+
+    @media screen and (max-width: 576px) {
+
+        #ee1{
+            position: absolute;
+            top: 100px;
+            left: 30px;
+        }
+
+
+        #mm1 .mm2 img{
+            width: 90% !important;
+        }
+     
+
+        #oo .cc0 h1 {
+            position: relative;
+            left: -30px;
+
+        }
+
+        #ll5 {
+            position: absolute;
+            left: 5%;
+            width: 90%;
+        }
+
+        .column {
+            position: absolute;
+            top: 50px !important;
+            left: 1px !important;
+        }
+
+        #vv1 {
+            position: absolute;
+            background: #2c2c2c;
+            height: 3000px;
+        }
+
+            #vv1 nav {
+                width: 100%;
+            }
+
+            #vv1 .c1 {
+                height: 150px;
+                border-radius: 0;
+                margin-left: 20px;
+            }
+
+            #vv1 .c2 {
+                height: 150px;
+                border-radius: 0;
+                margin-left: 250px;
+            }
+    }
+
+    @media screen and (max-width: 768px) {
+
+      
+
+
+
+        #mm1 .mm2 img {
+            width: 90% !important;
+        }
+       
+
+        #oo .cc0 h1 {
+            margin-left: 100px;
+            font-size: 50px;
+        }
+
+        #ll5 {
+            position: absolute;
+            left: 5%;
+            width: 90%;
+        }
+
+        .column {
+            position: absolute;
+            top: 60px !important;
+            left: 1px !important;
+        }
+
+         
+
+            .column .aa2 {
+                width: 150%;
+            }
+
+            .column .aa3 {
+                width: 150%;
+            }
+
+        #vv1 {
+            position: absolute;
+            background: #2c2c2c;
+            height: 3000px;
+        }
+
+            #vv1 nav {
+                width: 100%;
+            }
+
+            #vv1 .c1 {
+                height: 150px;
+                border-radius: 0;
+                margin-left: 20px;
+            }
+
+            #vv1 .c2 {
+                height: 150px;
+                border-radius: 0;
+                margin-left: 230px;
+                max-width: 60%;
+            }
+
+            #vv1 .vv2 {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                z-index: 1;
+            }
+    }
+
+    @media screen and (max-width: 998px) {
+
+        #mm1 .mm2  img{
+           width: 90% !important;
+        }
+
+      
+
+
+
+        #ll5 {
+            position: absolute;
+            left: 5%;
+            width: 90%;
+        }
+
+        .column {
+            position: absolute;
+            top: 50px !important;
+            left: 10px !important;
+            text-align: center;
+        }
+
+            .column .aa1 {
+            }
+
+                .column .aa1 img {
+                }
+
+            .column .aa2 {
+                width: 150%;
+            }
+
+                .column .aa2 img {
+                    width: 150%;
+                }
+
+            .column .aa3 {
+                width: 150%;
+            }
+
+                .column .aa3 img {
+                    width: 150%;
+                }
+
+        #vv1 {
+            position: absolute;
+            background: #2c2c2c;
+            height: 3000px;
+        }
+
+            #vv1 .vv2 {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                z-index: 1;
+            }
+
+            #vv1 nav {
+                width: 100%;
+            }
+
+            #vv1 .c1 {
+                height: 150px;
+                border-radius: 0;
+            }
+    }
+
+    @media screen and (min-width: 1000px) {
+
+
+        #mm1 .mm2 {
+            margin-left: 250px !important;
+        }
+
+
+        #oo .cc0 {
+            position: absolute;
+            left: 380px;
+            width: 60%;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        #oo .cc0 {
+            position: absolute;
+            left: 380px;
+            width: 60%;
+        }
+
+        #ee1 j
+        .column .aa1 {
+            width: 10%;
+        }
+
+            #ee1 j
+            .column .aa1 img {
+                width: 90%;
+            }
+
+        #ee1 j
+        .column .aa2 {
+            width: 10%;
+        }
+
+            #ee1 j
+            .column .aa2 img {
+                width: 30%;
+            }
+
+        #ee1 j
+        .column .aa3 {
+            width: 10%;
+        }
+
+            #ee1 j
+            .column .aa3 img {
+                width: 90%;
+            }
+    }
+    /*# sourceMappingURL=style.css.map */

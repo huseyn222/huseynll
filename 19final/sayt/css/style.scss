@@ -1,0 +1,406 @@
+#vv1{
+
+  background:#2c2c2c;
+  .collapse{
+height: 1000px;
+background: #b0a87a;
+  }
+
+  
+  img{
+
+    position: absolute;
+    top: -50px;
+  }
+  .navbar-nav{
+
+    position: absolute;
+    top: 50px;
+
+
+  }
+  img{
+    border-radius: 100px;
+    margin-left: 60px;
+    margin-top: 150px;
+  }
+  h1{
+    color: rgb(228, 113, 113);
+    margin-top: 250px;
+    margin-left: 70px;
+
+
+  }
+  p{
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    top: 350px;
+    left: 20px;
+
+  }
+  .zz1{
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    top: 550px;
+    left: 40px;
+    li{
+      padding: 10px;
+    }
+
+  }
+
+
+
+ 
+}
+
+#z0{
+
+  
+.z3{
+img{
+  max-width: 10%;
+
+}
+}
+}
+
+
+  #ee1{
+    
+    .column{
+      
+      position: absolute;
+      top: 8px;
+      left: 290px;
+      
+      
+      .aa1{
+        justify-content: center;
+        
+
+   &:hover{
+   opacity: 0.3;
+   }
+   
+   
+   
+        h1{
+          position: absolute;
+          top: 1px;
+          color: white;
+          
+   
+          &:hover{
+            opacity: 1;
+
+          }
+        }
+       
+    
+       
+      }
+   
+      .aa2{
+       justify-content: center;
+       align-items: center;
+
+       &:hover{
+       opacity: 0.3;
+   
+       }
+       h1{
+         color: white;
+         position: absolute;
+         opacity: 0;
+   
+         &:hover{
+           opacity: 1;
+         }
+       }
+       img{
+   width: 89%;
+       }
+      }
+    
+      .aa3{
+       justify-content: center;
+       align-items: center;
+       
+       &:hover{
+         opacity: 0.3;
+     
+         }
+       h1{
+         color: white;
+         position: absolute;
+         opacity: 0;
+   
+         &:hover{
+           opacity: 1;
+         }
+       }
+       img{
+   padding: 1vh;
+       }
+      }
+    
+    }
+
+
+  }
+ 
+
+
+
+
+
+
+
+
+ #oo{
+   background: #2c2c2c;
+  
+   .cc0{
+   position: absolute;
+   top: 100px;
+     color: #939393;
+     
+   }
+ }
+
+
+
+#mm1{
+  background: #2c2c2c;
+  height: 1000px;
+  text-align: center;
+ 
+  .mm2{
+    position: absolute;
+  top: 100px;
+  }
+  h1{
+    color: #869293;
+  }
+  p{
+  color: #869293;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media screen and(max-width: 576px){
+
+
+.column{
+  position: absolute;
+  top: 50px !important;
+  left: 1px !important;
+
+}
+
+
+
+#vv1{
+  background:#2c2c2c;
+height: 3000px;
+
+
+nav{
+  width: 100%;
+ 
+}
+.c1{
+
+  height: 150px;
+  border-radius: 0;
+  margin-left: 20px;
+}
+.c2{
+  height: 150px;
+  border-radius: 0;
+  margin-left: 250px;
+}
+
+}
+}
+
+@media screen and(max-width: 768px){
+  .column{
+    position: absolute;
+    top: 60px !important;
+    left: 1px !important;
+
+.aa1{
+width: 150%;
+
+}
+.aa2{
+  width: 150%;
+  
+  }
+
+  .aa3{
+    width: 150%;
+    
+    }
+
+  }
+  #vv1{
+    background:#2c2c2c;
+  height: 3000px;
+  nav{
+
+    width: 100%;
+  }
+  .c1{
+
+    height: 150px;
+    border-radius: 0;
+    margin-left: 20px;
+
+  }
+  .c2{
+    height: 150px;
+    border-radius: 0;
+    margin-left: 230px;
+
+    max-width: 60%;
+  }
+  .vv2{
+    position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  
+  }
+  }
+  }
+  
+@media screen and(max-width: 998px){
+ 
+  .column{
+    position: absolute;
+    top: 50px !important;
+  left: 10px !important;
+text-align: center;
+
+  .aa1{
+
+    width: 150%;
+    img{
+    width: 150%;
+
+    }
+    
+    }
+    .aa2{
+      width: 150%;
+      img{
+        width: 150%;
+    
+        }
+      }
+    
+      .aa3{
+        width: 150%;
+        img{
+          width: 150%;
+      
+          }
+        
+        }
+ 
+  }
+  #vv1{
+    .vv2{
+      position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    
+    }
+    background:#2c2c2c;
+  height: 3000px;
+  nav{
+    width: 100%;
+  }
+  .c1{
+    height: 150px;
+    border-radius: 0;
+  }
+  }
+  }
+
+  @media screen and(min-width: 1000px){
+
+
+    
+    #oo{
+      .cc0{
+        position: absolute;
+        left: 380px;
+        width: 60%;
+      }
+    }
+
+
+    
+  }
+
+
+
+  @media screen and(min-width: 1200px){
+  
+    #oo{
+      .cc0{
+        position: absolute;
+        left: 380px;
+        width: 60%;
+      }
+    }
+
+    #ee1{
+      j
+      .column{
+        .aa1{
+      
+          width: 10%;
+          img{
+          width: 90%;
+      
+          }
+          
+          }
+          .aa2{
+      
+            width: 10%;
+            img{
+            width: 30%;
+        
+            }
+            
+            }
+            .aa3{
+      
+              width: 10%;
+              img{
+              width: 90%;
+          
+              }
+              
+              }
+      }
+    }
+
+  }
+

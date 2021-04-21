@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="finalModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="about1">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="etrafli" Type="nvarchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <EntityType Name="adminlogin">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="home">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="photourl" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="basliq" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="etrafli" Type="nvarchar" MaxLength="1000" Nullable="false" />
+  </EntityType>
+  <EntityType Name="teklif">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="mesaj" Type="nvarchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="finalModelStoreContainer">
+    <EntitySet Name="about1" EntityType="Self.about1" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="adminlogin" EntityType="Self.adminlogin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="home" EntityType="Self.home" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="teklif" EntityType="Self.teklif" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

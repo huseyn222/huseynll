@@ -1,0 +1,32 @@
+﻿@model _19final.Models.home
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+
+<div id="mm1">
+    <div class="container">
+        <div class="mm2">
+            <h1>
+                @Html.DisplayFor(model => model.basliq)
+            </h1>
+            <br>
+            <br>
+
+            <img src="@Model.photourl" alt="">
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <p>
+                @Html.DisplayFor(model => model.etrafli)
+            </p>
+        </div>
+    </div>
+</div>

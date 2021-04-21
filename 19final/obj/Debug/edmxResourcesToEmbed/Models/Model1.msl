@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="finalModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="about1">
+      <EntityTypeMapping TypeName="finalModel.about1">
+        <MappingFragment StoreEntitySet="about1">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="etrafli" ColumnName="etrafli" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="homes">
+      <EntityTypeMapping TypeName="finalModel.home">
+        <MappingFragment StoreEntitySet="home">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="photourl" ColumnName="photourl" />
+          <ScalarProperty Name="basliq" ColumnName="basliq" />
+          <ScalarProperty Name="etrafli" ColumnName="etrafli" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="teklifs">
+      <EntityTypeMapping TypeName="finalModel.teklif">
+        <MappingFragment StoreEntitySet="teklif">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="mesaj" ColumnName="mesaj" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="adminlogins">
+      <EntityTypeMapping TypeName="finalModel.adminlogin">
+        <MappingFragment StoreEntitySet="adminlogin">
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
